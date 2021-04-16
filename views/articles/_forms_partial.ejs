@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="/public/css/new.css">
+<a href='/' class="main__back"><svg width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.1783 16.583L18.9775 27.3333L16.3258 29.7493L0 14.8746L16.3258 0L18.9775 2.41595L7.1783 13.1663H34.5266V16.583H7.1783Z" fill="white"/>
+    </svg></a>
+<div class="main__item">
+    <label for='titInp' class="main__item__title">Название</label>
+    <textarea  type='text' name='title' class="main__item__in" id='titInp'><%= article.title%> </textarea>
+</div>
+<div class="main__item">
+    <label for='titInp' class="main__item__title">Описание</label>
+    <textarea  type='text' name='description' class="main__item__in" id='titInp'><%= article.description%> </textarea>
+</div>
+<div class="main__item">
+    <label for='titInp' class="main__item__title">Подробное описание</label>
+    <textarea required type='text' class="main__item__in" name='markdown' id='titInp'><%= article.markdown%></textarea>
+</div>
+<div class="main__button">
+    <button type='submit' class="main__buttons__save">
+        Сохранить
+    </button>
+</div>
