@@ -3,19 +3,7 @@
 ссылки на футер
 анимация на филитрацию
 */
-@keyframes gradient-bg {
-  0% {
-      background-position: 0% 50%;
-  }
 
-  50% {
-      background-position: 100% 50%;
-  }
-
-  100% {
-      background-position: 0% 50%;
-  }
-}
 
 @keyframes gradient-wrapper {
   from {
@@ -119,70 +107,7 @@ dropdown input:checked~ul {
   top: 0;
 }
 
-#particles-js {
-  z-index: 1;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-position: 50% 50%;
-}
 
-#canvas {
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
-
-.header {
-  margin-top: 30px;
-}
-
-.header__logo {
-  z-index: 2;
-}
-
-.header__logo__name {
-  text-transform: uppercase;
-  margin-left: 10px;
-}
-
-.header__logo__name h1 {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 37px;
-
-}
-
-.header__logo__name h3 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-}
-
-.header__r-content {
-  padding-left: 5vw;
-}
-
-.header__r-content h5 {
-  height: 20px;
-  padding-right: 1vw;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  text-transform: uppercase;
-  border-right: solid 2px #fff;
-}
-
-.header__r-content .lang {
-  padding-left: 1vw;
-  font-family: Montserrat;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 22px;
-  text-transform: uppercase;
-}
 
 .lib {
   margin-top: 60px;
@@ -256,8 +181,8 @@ min-height: 120px;
   line-height: 17px;
 }
 
-#lib__menu__item__more {
-
+.lib__menu__item__more {
+  line-height: 40px;
   margin-right: 4vw;
   transition: 700ms;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
@@ -268,14 +193,13 @@ min-height: 120px;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
-  line-height: 20px;
   text-transform: uppercase;
   border: 2px solid #3670ff;
   border-radius: 30px;
 
 }
 
-#lib__menu__item__more:hover {
+.lib__menu__item__more:hover {
   background: none;
   text-decoration: none;
   color: #3670ff;
