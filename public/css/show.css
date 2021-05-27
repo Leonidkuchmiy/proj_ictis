@@ -140,7 +140,9 @@ outline: none;
       left: 4vw;
       top: 2vw;
   }
-
+.controls #prev{
+  background:url('../img/left.svg');
+}
   .show__edit{
       position: absolute;
       right: 4vw;

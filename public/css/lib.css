@@ -151,13 +151,14 @@ dropdown input:checked~ul {
   min-height: 100px;
 }
 
-.lib__menu__item:hover{
+/*.lib__menu__item:hover{
 width: 95%;
 margin-left: 2.5%;
 padding-top: 10px;
 padding-bottom: 10px;
 min-height: 120px;
 }
+*/
 
 .lib__menu__item0 {
   transition: 700ms;  

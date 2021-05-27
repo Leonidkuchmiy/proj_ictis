@@ -6,9 +6,17 @@ exports.checkAuthenticated = (req, res, next) => {
     }
 }
 
+exports.checkMainLink = (req, res, next) => {
+    if (req.isAuthenticated()){
+        return res.redirect('articles/index_auth')
+    } else {
+        return res.redirect('articles/index')
+    }
+}
+
 exports.checkNotAuthenticated = (req, res, next) => {
     if (req.isAuthenticated()){
-        return res.redirect('/todos')
+        return res.redirect('/')
     }
 
     next()

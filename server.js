@@ -44,6 +44,6 @@ app.get('/', (req, res) => {
     res.redirect('/articles')
 })
 
-const PORT = process.env.PORT || 8000
+const PORT = process.env.PORT || 5000
 
 app.listen(PORT, () => console.log(`The server has started on the port ${PORT}`))

@@ -119,14 +119,6 @@ dropdown input:checked ~ ul {
   top: 0;
 }
 
-
-.footer-items {
-    z-index: 2;
-  align-items: center;
-  position: absolute;
-  bottom: 50px;
-}
-
 .buttons h1{
   width: 80%;
   margin-top: 3vh;
